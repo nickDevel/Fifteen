@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andnick.fifteen.GameAct">
+<include layout="@layout/action_bar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/include" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gameLay"
+        android:background="#009688"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include"></TableLayout>
+</RelativeLayout>
